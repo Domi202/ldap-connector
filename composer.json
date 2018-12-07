@@ -1,0 +1,20 @@
+{
+    "name": "domi/ldap-connector",
+    "type": "library",
+    "description": "LDAP Connection Library",
+    "authors": [
+        {
+            "name": "Dominique Kreemers",
+            "email": "dominique.kreemers@me.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-ldap": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domi\\LdapConnector\\": "src"
+        }
+    }
+}
